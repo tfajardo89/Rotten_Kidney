@@ -49,8 +49,12 @@ header::before{
   }
 
   #content h1 {
-    color: darkred;
+    color: #A5211F;
   }
 
+footer{
+    background: #0D161E;
+    color: #ffffff;
+}
 
   
