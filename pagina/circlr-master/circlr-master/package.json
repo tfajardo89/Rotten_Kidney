@@ -1,0 +1,21 @@
+{
+  "name": "circlr",
+  "description": "Animation rotation via scroll, mouse and touch events",
+  "version": "3.1.1",
+  "keywords": [
+    "animation",
+    "rotation",
+    "image"
+  ],
+  "repository": "andrepolischuk/circlr",
+  "dependencies": {
+    "eventwheel": "^0.3.0",
+    "component-emitter": "^1.2.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postpublish": "git push --follow-tags"
+  },
+  "author": "Andrey Polischuk <me@andrepolischuk.com> (https://andrepolischuk.com)",
+  "license": "MIT"
+}
