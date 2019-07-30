@@ -49,17 +49,13 @@ header::before{
   }
 
   #content h1 {
-    color: darkred;
+    color: #A5211F;
   }
 
-.row{
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px;
-  width: 100%;
+footer{
+    background: #0D161E;
+    color: #ffffff;
 }
-.coll{
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
+
+>>>>>>> e670d977f0390f3d0261be0a621a892879d4ef2b
   
