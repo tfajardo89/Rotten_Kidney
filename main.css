@@ -1,0 +1,45 @@
+body {
+	height: 100%;
+    margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+  font-family: comfortaa, 'comfortaa', serif;
+	font-size: 35px;
+  color: rgb(218,190,206);
+}
+
+h2 {
+	font-size: 56px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gallery-item {
+    margin: 20px;
+    width: 320px;
+    height: 212px;
+  }
+  
+  .gallery-item .thumbnail {
+    border: 5px solid #fff;
+  }
+.text {
+       font-size: 22px;
+    }
+.main {
+  background-size: cover;
+  font-family: "trebuchet ms", Helvetica, sans-serif;
+  color: #ffffff;
+	padding: 250px 0;
+	margin: 30px;
+}
+p {
+font-size: 2rem;
+}

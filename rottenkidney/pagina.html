@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rotten Kidney</title>
+    <style>
+        p {
+            color: aliceblue;
+        }
+
+        body {
+            background-color: black;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .portada {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        @media only screen and (max-width: 810px) {
+            .header{
+                background-color: aliceblue;
+                position: static;
+                height: 100%;
+
+            }
+            .header .navlist {
+                background-color: aliceblue;
+                width: 80%;
+                height: 100%;
+                margin: 0;
+                position: fixed;
+                float: none;
+                position: fixed
+            }
+            .header .navlist .ul .li {
+                float: none;
+                display: block;
+                
+            }
+            .navlist{
+                background-color: yellowgreen;
+            }
+            .contenedor{
+                height: 100%;
+                background-color: chocolate;
+            }
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+            list-style-type: none;
+            text-decoration: none;
+            width: 100%;
+            height: 80px;
+            background-color: black;
+            margin: auto;
+        }
+
+        .contenedor {
+
+            width: 80%;
+            margin: auto;
+        }
+
+        .navlist {
+            top: 0;
+            list-style-type: none;
+            text-decoration: none;
+            float: left;
+            width: 70%;
+            text-align: right;
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .logo {
+            width: 30%;
+            height: 70px;
+            background: black;
+            float: left;
+            text-align: center;
+        }
+
+        .nav1.hover {
+            color: red;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            padding: 20px 10px;
+            background-color: black;
+        }
+
+        li {
+            display: inline;
+            color: whitesmoke;
+
+        }
+
+        li a {
+            padding-left: 20px;
+            color: whitesmoke;
+            list-style-type: none;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 20px;
+        }
+
+        li a:hover {
+            color: #a72321;
+        }
+
+        p {
+            font-size: 35px;
+        }
+
+        h1 {
+            color: #a72321;
+            padding-left: 40px;
+            padding-top: 20px;
+        }
+
+        div.gallery {
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 5px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 33.3%;
+        }
+
+        .calaveras {
+            max-width: 1200px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin: auto;
+            font-family: sans-serif;
+        }
+
+        .imanes {
+            max-width: 1200px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin: auto;
+            font-family: sans-serif;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .contboton {
+            background-color: #a72321;
+            width: 100%;
+        }
+        .boton {
+            background-color: rgb(88, 88, 88);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            left: 50%;
+            position: absolute;
+            left: 50%;
+            margin: 20px;
+            font-family: sans-serif;
+            
+        }
+    </style>
+</head>
+
+<body >
+    </div>
+    <div class="header">
+        <div class "contenedor">
+            <div class="logo">
+                <img src="logomenu.png" alt="kidney" height="80px">
+            </div>
+            <div class=navlist>
+                <ul>
+                    <li>
+                        <a href="">Productos</a>
+                    </li>
+                    <li>
+                        <a href="">Clientes</a>
+                    </li>
+                    <li> </li>
+                    <li>
+                        <a href="">Quienes somos</a>
+                    </li>
+                    <li>
+                        <a href="">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="calaveras">
+        <h1 class="h1">
+            Calaveras
+        </h1>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="1ironman.jpg">
+                    <img src="1ironman.jpg" alt="ironman" width="400" height="400">
+                </a>
+                <div class="desc">Calavera IronMan
+                    <br>
+                    <b>$50.000 Col</b>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="2brain.jpg">
+                    <img src="2brain.jpg" alt="brain" width="400" height="400">
+                </a>
+                <div class="desc">Calavera Cerebro
+                    <br>
+                    <b>$50.000 Col</b>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="3pinhead.jpg">
+                    <img src="3pinhead.jpg" alt="pinhead" width="400" height="400">
+                </a>
+                <div class="desc">Calavera Pinhead
+                    <br>
+                    <b>$50.000 Col</b>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+        <div class="contboton">
+            <div class="boton">
+                <a href="more" style="text-decoration: none">Ver Más</a>
+            </div>
+        </div>
+    <div class="imanes">
+        <h1 class="h1">
+            Imanes
+        </h1>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="1ironman.jpg">
+                    <img src="1ironman.jpg" alt="ironman" width="400" height="400">
+                </a>
+                <div class="desc">Calavera IronMan
+                    <br>
+                    <b>$50.000 Col</b>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="2brain.jpg">
+                    <img src="2brain.jpg" alt="brain" width="400" height="400">
+                </a>
+                <div class="desc">Calavera Cerebro
+                    <br>
+                    <b>$50.000 Col</b>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="3pinhead.jpg">
+                    <img src="3pinhead.jpg" alt="pinhead" width="400" height="400">
+                </a>
+                <div class="desc">Calavera Pinhead
+                    <br>
+                    <b>$50.000 Col</b>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    
+</body>
+
+</html>
