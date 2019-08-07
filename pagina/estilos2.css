@@ -51,6 +51,16 @@ header::before{
   #content h1 {
     color: #A5211F;
   }
+  .autorotate{
+    width:30%;
+    
+    display:block;
+    padding:5px;
+    background-color:#A5211F;
+    color:#fff;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-align:center;
 
 footer{
     background: #0D161E;
