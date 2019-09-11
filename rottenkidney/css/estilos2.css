@@ -1,0 +1,58 @@
+html { 
+  height: 100%; 
+  overflow: hidden; 
+} 
+
+body {
+  background-color: black;
+  margin: 0; 
+  padding: 0; 
+  perspective: 1px; 
+  transform-style: preserve-3d; 
+  height: 100%; 
+  overflow-y: scroll; 
+  overflow-x: hidden; 
+} 
+
+header{ 
+  box-sizing: border-box;
+  position: relative; 
+  transform-style: inherit;
+} 
+                
+header::before { 
+  bottom: 0; 
+  content: ""; 
+  left: 0; 
+  position: absolute; 
+  right: 0; 
+  top: 0; 
+  display: block; 
+  background-image: url('../images/top.svg'); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform-origin: center center 0; 
+  transform: translateZ(-1px) scale(2); 
+  z-index: -1; min-height: 100vh;  
+}
+  
+.portada {
+  top: 0;
+}
+
+#content {
+  position: absolute;
+  background: black; 
+  height: 100%;
+  width: 100%;
+}
+
+#content h1 {
+  color: #A5211F;
+}
+
+footer{
+  background: #0D161E;
+  color: #ffffff;
+}
+  

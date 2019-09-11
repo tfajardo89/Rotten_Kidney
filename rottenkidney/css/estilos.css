@@ -1,0 +1,30 @@
+html { 
+  height: 100%;
+  overflow: hidden;
+}
+ 
+body {
+  background-color: white;
+  
+  background-position-y: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-y: scroll;
+  overflow-x: hidden; 
+    
+}
+
+header{
+  background: url("../images/fondo.jpg");
+  right: 0;
+  top: 0;
+  display: block;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-width: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: contain;
+}
